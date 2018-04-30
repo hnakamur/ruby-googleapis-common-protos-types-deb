@@ -1,0 +1,31 @@
+Source: ruby-googleapis-common-protos-types
+Section: ruby
+Priority: optional
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Manas kashyap <manaskashyaptech@gmail.com>
+Build-Depends: debhelper (>= 11~),
+               gem2deb,
+               ruby-google-protobuf (>= 3.0)
+Standards-Version: 4.1.4
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-googleapis-common-protos-types.git
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-googleapis-common-protos-types
+Homepage: https://github.com/googleapis/googleapis
+Testsuite: autopkgtest-pkg-ruby
+XS-Ruby-Versions: all
+
+Package: ruby-googleapis-common-protos-types
+Architecture: all
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: ruby | ruby-interpreter,
+         ruby-google-protobuf (>= 3.0),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: Common protobuf types used in Google APIs
+ Google APIs are typically deployed as API services that are hosted under
+ different DNS names. One API service may implement multiple APIs and multiple
+ versions of the same API.
+ .
+ Google APIs use Protocol Buffers version 3 (proto3) as their Interface
+ Definition Language (IDL) to define the API interface and the structure of the
+ payload messages. The same interface definition is used for both REST and RPC
+ versions of the API, which can be accessed over different wire protocols.

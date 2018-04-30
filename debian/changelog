@@ -1,0 +1,5 @@
+ruby-googleapis-common-protos-types (1.0.1-1) unstable; urgency=medium
+
+  * Initial release (Closes: #897240)
+
+ -- Manas kashyap <manaskashyaptech@gmail.com>  Mon, 30 Apr 2018 17:18:26 +0000
