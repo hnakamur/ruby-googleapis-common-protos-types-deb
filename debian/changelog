@@ -1,3 +1,9 @@
+ruby-googleapis-common-protos-types (1.0.1-1ppa1~bionic) bionic; urgency=medium
+
+  * Backport to Ubuntu 18.04 LTS. 
+
+ -- Hiroaki Nakamura <hnakamur@gmail.com>  Mon, 15 Jul 2019 05:41:31 +0900
+
 ruby-googleapis-common-protos-types (1.0.1-1) unstable; urgency=medium
 
   * Initial release (Closes: #897240)
